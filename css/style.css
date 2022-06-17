@@ -1,0 +1,19 @@
+.tlo {
+    background-color: hsl(41, 29%, 89%);
+    text-align: justify;
+}
+
+.naglowek1 {
+    text-align: center;
+}
+
+.naglowek2 {
+    background-color: #e6cdb0;
+    text-align: center;
+}
+
+.wysrodkujZdjecie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
