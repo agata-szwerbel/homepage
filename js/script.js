@@ -6,6 +6,9 @@
       akapit1.remove();
     });
   };
+  akapit1Remove();
+
+
 
   const akapit2Remove = () => {
     const przycisk2 = document.querySelector(".przycisk2");
@@ -14,6 +17,8 @@
       akapit2.remove();
     });
   };
+  akapit2Remove();
+
 
   const akapit3Remove = () => {
     const przycisk3 = document.querySelector(".przycisk3");
@@ -22,4 +27,5 @@
       akapit3.remove();
     });
   };
+  akapit3Remove();
 }
