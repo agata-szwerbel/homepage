@@ -1,24 +1,25 @@
-console.log("Hi!");
-let przycisk1 = document.querySelector(".przycisk1");
-let akapit1 = document.querySelector(".akapit1");
+{
+  const akapit1Remove = () => {
+    const przycisk1 = document.querySelector(".przycisk1");
+    const akapit1 = document.querySelector(".akapit1");
+    przycisk1.addEventListener("click", () => {
+      akapit1.remove();
+    });
+  };
 
-let przycisk2 = document.querySelector(".przycisk2");
-let akapit2 = document.querySelector(".akapit2");
+  const akapit2Remove = () => {
+    const przycisk2 = document.querySelector(".przycisk2");
+    const akapit2 = document.querySelector(".akapit2");
+    przycisk2.addEventListener("click", () => {
+      akapit2.remove();
+    });
+  };
 
-let przycisk3 = document.querySelector(".przycisk3");
-let akapit3 = document.querySelector(".akapit3");
-
-console.log(przycisk1);
-przycisk1.addEventListener("click", () => {
-
-    akapit1.remove();
-});
-console.log(przycisk2)
-przycisk2.addEventListener("click", () => {
-    akapit2.remove()
-})
-
-console.log(przycisk3);
-przycisk3.addEventListener("click", () => {
-    akapit3.remove()
-})
+  const akapit3Remove = () => {
+    const przycisk3 = document.querySelector(".przycisk3");
+    const akapit3 = document.querySelector(".akapit3");
+    przycisk3.addEventListener("click", () => {
+      akapit3.remove();
+    });
+  };
+}
